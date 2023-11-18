@@ -1,0 +1,49 @@
+.card-top {
+  display: flex;
+  gap: 20px;
+}
+
+h2, p {
+  margin: 0;
+}
+
+.card-top-right {
+  width: 50%;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.image-center {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.card-top-image {
+  width: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.card-footer {
+  display: flex;
+  gap: 8px;
+  /* justify-content: space-between; */
+}
+
+.card-footer img {
+  width: 100px;
+  flex-grow: 1;
+}
+
+.fa-heart {
+  color: pink;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
